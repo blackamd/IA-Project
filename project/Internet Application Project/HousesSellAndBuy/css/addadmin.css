@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.563em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 1095px;
+  background-image: url('../images/3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element {
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 44.9%;
+  height: 385px;
+  margin: -911px 0 0 27.59896%;
+  background-color: rgba(27, 82, 24, 0.54);
+}
+
+.text {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 40.1666666666%;
+  min-height: 105px;
+  margin: -1064px 0 0 30.39974%;
+  background-color: rgba(255, 255, 255, 0);
+  text-shadow: 15px 10px 2px rgba(0, 0, 0, .5);
+  font-style: italic;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 17.0833333333%;
+  height: 38px;
+  margin: -662px 0 0 42.39974%;
+  border-radius: 18px;
+  background-color: rgba(255, 245, 110, 0.53);
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, .5);
+  font-size: 0.8em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(177, 39, 39);
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  height: 40px;
+  margin-left: 39.25%;
+  padding: 0 10px;
+  border: 1px solid rgb(83, 198, 21);
+  border-radius: 4px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.8em;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(12, 142, 25, 0.56);
+}
+
+._input-1 {
+  z-index: 3;
+  width: 22.3%;
+  margin-top: -862px;
+}
+
+._input-2 {
+  z-index: 4;
+  width: 22.2994791666%;
+  margin-top: -772px;
+}

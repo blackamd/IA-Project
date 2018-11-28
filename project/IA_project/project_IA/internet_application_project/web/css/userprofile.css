@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 700 1em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 1095px;
+  margin-top: -6px;
+  background-image: url('../images/3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 23.5833333333%;
+  height: 1089px;
+  margin-top: -1089px;
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 15px 16px 16px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  position: relative;
+  float: left;
+  min-height: 64px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.wrapper {
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 15.25%;
+  margin-left: 3.9166666666%;
+  border: 1px solid rgb(102, 218, 0);
+  border-radius: 11px;
+  box-shadow: 6px 8px 8px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-1 {
+  z-index: 2;
+  width: 16.9166666666%;
+  margin: -1072px 0 0 3.16667%;
+  font-size: 1.563em;
+  color: rgb(27, 97, 38);
+}
+
+.text-2 {
+  z-index: 11;
+  width: 25.3333333333%;
+  margin: -1044px 0 0 45.06641%;
+  font-size: 1.875em;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper-1 {
+  z-index: 3;
+  width: 15.25%;
+  height: 43px;
+  margin: -1014px 0 0 3.91667%;
+}
+
+.wrapper-2 {
+  z-index: 7;
+  width: 15.25%;
+  height: 149px;
+  margin: -955px 0 0 3.91667%;
+}
+
+.wrapper-3 {
+  z-index: 4;
+  width: 15.25%;
+  height: 51px;
+  margin: -766px 0 0 3.91667%;
+}
+
+.wrapper-4 {
+  z-index: 5;
+  width: 15.25%;
+  height: 46px;
+  margin: -692px 0 0 3.91667%;
+}
+
+.wrapper-5 {
+  z-index: 6;
+  width: 15.25%;
+  height: 43px;
+  margin: -621px 0 0 3.91667%;
+}
+
+.wrapper-6 {
+  z-index: 12;
+  width: 64.5%;
+  height: 861px;
+  margin: -996px 0 0 29.58073%;
+}
+
+._button-1 {
+  z-index: 8;
+  height: 48px;
+  margin-top: -484px;
+  background-color: rgba(25, 133, 12, 0.71);
+}
+
+._button-2 {
+  z-index: 10;
+  height: 55px;
+  margin-top: -382px;
+  background-color: rgba(102, 218, 0, 0.71);
+}
+
+._button-3 {
+  z-index: 13;
+  height: 57px;
+  margin-top: -289px;
+  background-color: rgba(102, 218, 0, 0.71);
+}
+
+._button-4 {
+  z-index: 9;
+  height: 48px;
+  margin-top: -200px;
+  background-color: rgba(102, 218, 0, 0.71);
+}
+._button-5 {
+  z-index: 11;
+  height: 48px;
+  margin-top: -111px;
+  background-color: rgba(0, 125, 35, 0.71);
+}

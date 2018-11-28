@@ -1,0 +1,60 @@
+body {
+  
+  font: 700 1em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+  background-image: url('../images/5.jpg');
+}
+
+.container{
+    text-align: center;
+   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 830px;
+  height: 41%;
+  padding: 20px;
+  margin: 10px auto 10px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 17px 0 17px 17px;
+  border-radius: 17px 0 17px 17px;
+  font: italic normal bold 24px/1 "Trebuchet MS", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: pre-line;
+  background: url("http://enjoycss.com/bg-img/default/1_2.png"), #0199d9;
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 1px 0 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 1px 0 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+.button {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  padding: 0 22px;
+  border: 4px solid rgb(255,255,255);
+  font: normal normal bold 20px/50px Arial, Helvetica, sans-serif;
+  color: rgba(23,64,211,1);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #3d3422;
+}
+
+.button:hover {
+  color: #ffae00;
+  background: #352c2c;
+}

@@ -1,0 +1,74 @@
+body {
+  font: 700 1.25em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+  background-image: url('../images/3.jpg');
+}
+.container{
+    text-align: center;
+   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 830px;
+  height: 41%;
+  padding: 20px;
+  margin: 10px auto 10px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 17px 0 17px 17px;
+  border-radius: 17px 0 17px 17px;
+  font: italic normal bold 24px/1 "Trebuchet MS", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: pre-line;
+  background: url("http://enjoycss.com/bg-img/default/1_2.png"), #0199d9;
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 1px 0 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 1px 0 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+.button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 190px;
+  height: 70px;
+  margin: 17px auto 0;
+  cursor: pointer;
+  border: 2px solid rgb(30,205,151);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 37px/70px "Advent Pro", Helvetica, sans-serif;
+  color: rgb(30, 205, 151);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0);
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+
+.button:hover {
+  color: rgba(255,255,255,1);
+  background: rgb(30, 205, 151);
+}
+
+.button:active {
+  border: 2px solid rgba(33,224,163,1);
+  background: rgba(33,224,163,1);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+

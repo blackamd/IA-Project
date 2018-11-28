@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>sign_up page</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/signup-grid.css">
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body class="body page-signup clearfix">
+  <div class="container"></div>
+  <p class="text text-1">Sign Up</p>
+  <div class="element"></div>
+  <form action="sign_up" onsubmit="return validation()">
+      <input class="_input _input-1" placeholder="User Name" type="text" name="name" id="name">
+        <input class="_input _input-2" placeholder="E-Mail" type="text" name="email" id="email">
+        <input class="_input _input-3" placeholder="Password" type="password" name="pass" id="pass">
+        <input class="_input _input-4" placeholder="Address" type="text" name="address" id="address">
+        <input class="_input _input-5" placeholder="Phone" type="text" name="phone" id="phone">
+        <button class="_button _button-1">Upload a Photo</button>
+        <input type="image" name="img">
+        <button class="_button _button-2" type="submit">Confirm</button>
+        <p class="text text-2">I am already have an account</p>
+  </form>
+  <button onClick="window.location='index.jsp';" class="_button _button-3">Login</button>
+  <script>
+            function validation(){
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var pass = document.getElementById("pass").value;
+                var address = document.getElementById("address").value;
+                var phone = document.getElementById("phone").value;
+                if(name !== "" && email !== ""  && pass !== "" && address !== "" && phone !== ""){
+                    return true;
+                }
+                else{
+                    alert("please fill all Field Important to Sign_up");
+                    return false;
+                }
+            }
+            </script>
+</body>
+</html>
